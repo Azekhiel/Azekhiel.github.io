@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Gerald Briandelo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: { 
+                        darkbg: '#030303',
+                        neon: '#0ce3bb',
+                        cardbg: '#0a0a0a',
+                        cardborder: '#1f1f1f'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkbg text-gray-300 antialiased relative selection:bg-neon selection:text-black">
+    
+    <div class="glow-bg top-[-20%] right-[-10%]"></div>
+    <div class="glow-bg top-[40%] left-[-10%] opacity-50"></div>
+
+    <nav class="fixed z-50 bottom-8 left-1/2 -translate-x-1/2 bg-[#0a0a0a]/80 backdrop-blur-xl border border-white/10 rounded-full px-8 py-4 flex gap-6 md:gap-8 text-[10px] md:text-xs font-semibold text-gray-400 shadow-[0_20px_40px_rgba(0,0,0,0.8)] transition-all whitespace-nowrap">
+        <a href="#home" class="hover:text-neon transition-colors">HOME</a>
+        <a href="#about" class="hover:text-neon transition-colors">ABOUT</a>
+        <a href="#experience" class="hover:text-neon transition-colors">EXPERIENCE</a>
+        <a href="#projects" class="hover:text-neon transition-colors">WORK</a>
+        <a href="#awards" class="hover:text-neon transition-colors">AWARDS</a>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 lg:px-12 pb-40">
+        <!-- hero section -->
+        <section id="home" class="min-h-screen flex flex-col justify-center relative pt-10">
+            <div class="fade-up max-w-4xl">
+                <div class="text-neon text-xs tracking-[0.3em] uppercase mb-6 font-semibold flex items-center gap-3">
+                    SOFTWARE & ML ENGINEER
+                </div>
+                
+                <p class="text-2xl md:text-3xl text-gray-300 font-light mb-4 tracking-wide">
+                    William Gerald Briandelo.
+                </p>
+                
+                <h1 class="text-6xl md:text-7xl lg:text-8xl font-medium tracking-tighter text-white leading-[1.05] mb-8">
+                    Developing<br>end-to-end AI<br>& backend solutions.
+                </h1>
+                
+                <p class="text-gray-400 text-xl md:text-2xl mb-12 max-w-2xl leading-relaxed font-light">
+                    Software Engineer experienced in integrating LLM, NLP, and building robust backend pipelines.
+                </p>
+                
+                <a href="mailto:briandelowilliam@gmail.com" class="inline-flex items-center gap-4 bg-[#0a0a0a] border border-white/10 hover:border-neon rounded-full pl-8 pr-2 py-2 text-sm text-white transition-all group">
+                    <span class="font-medium tracking-wide">Happy to chat</span>
+                    <div class="w-10 h-10 rounded-full bg-neon flex items-center justify-center text-black group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(12,227,187,0.4)]">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="pt-32 fade-up">
+            <div class="border-t border-white/10 pt-10 grid grid-cols-1 md:grid-cols-12 gap-8">
+                <div class="md:col-span-4">
+                    <h2 class="text-white text-sm tracking-[0.2em] uppercase font-mono">/ About</h2>
+                </div>
+                <div class="md:col-span-8 text-xl md:text-2xl text-gray-300 leading-relaxed font-light">
+                    <p class="mb-6">Software Engineer with a strong foundation in designing predictive models, heuristic algorithms, and Generative AI applications.</p>
+                    <p>Experienced in developing end-to-end solutions, from integrating LLM and NLP for real-world applications to building robust backend pipelines. Currently a final year Electrical Engineering student at Institut Teknologi Bandung.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- experience -->
+        <section id="experience" class="pt-32 fade-up">
+            <div class="border-t border-white/10 pt-10 grid grid-cols-1 md:grid-cols-12 gap-8">
+                <div class="md:col-span-4">
+                    <h2 class="text-white text-sm tracking-[0.2em] uppercase font-mono">/ Experience</h2>
+                </div>
+                <div class="md:col-span-8 space-y-12" id="experience-container">
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section id="projects" class="pt-32 fade-up">
+            <div class="border-t border-white/10 pt-10 grid grid-cols-1 md:grid-cols-12 gap-8">
+                <div class="md:col-span-4">
+                    <h2 class="text-white text-sm tracking-[0.2em] uppercase font-mono">/ Selected Work</h2>
+                </div>
+                <div class="md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-6" id="projects-container">
+                </div>
+            </div>
+        </section>
+
+        <!-- organizations -->
+        <section id="organization" class="pt-32 fade-up">
+            <div class="border-t border-white/10 pt-10 grid grid-cols-1 md:grid-cols-12 gap-8">
+                <div class="md:col-span-4">
+                    <h2 class="text-white text-sm tracking-[0.2em] uppercase font-mono">/ Organization</h2>
+                </div>
+                <div class="md:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-6" id="organization-container">
+                </div>
+            </div>
+        </section>
+
+        <!-- awards -->
+        <section id="awards" class="pt-32 fade-up">
+            <div class="border-t border-white/10 pt-10 grid grid-cols-1 md:grid-cols-12 gap-8">
+                <div class="md:col-span-4">
+                    <h2 class="text-white text-sm tracking-[0.2em] uppercase font-mono">/ Awards & Certs</h2>
+                </div>
+                <div class="md:col-span-8 grid grid-cols-1 gap-4" id="awards-container">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="fixed bottom-10 right-10 hidden lg:flex flex-col gap-6 z-50">
+        <a href="https://github.com/Azekhiel" target="_blank" class="text-gray-500 hover:text-white transition-colors"><i class="fab fa-github text-xl"></i></a>
+        <a href="https://www.linkedin.com/in/william-gerald-briandelo-822257264/" target="_blank" class="text-gray-500 hover:text-neon transition-colors"><i class="fab fa-linkedin-in text-xl"></i></a>
+        <a href="mailto:briandelowilliam@gmail.com" class="text-gray-500 hover:text-white transition-colors"><i class="fas fa-envelope text-xl"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

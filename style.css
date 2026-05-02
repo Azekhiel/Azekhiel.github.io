@@ -1,0 +1,56 @@
+html {
+    background-color: #030303;
+}
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUpAnim 1s ease forwards;
+}
+
+@keyframes fadeUpAnim {
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+.glow-bg {
+    position: fixed;
+    width: 50vw;
+    height: 50vw;
+    background: radial-gradient(circle, rgba(12,227,187,0.05) 0%, rgba(0,0,0,0) 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* efek hover buat card */
+.minimal-card {
+    background: #0a0a0a;
+    border: 1px solid #1f1f1f;
+    transition: all 0.3s ease;
+}
+
+.minimal-card:hover {
+    border-color: rgba(12, 227, 187, 0.4);
+    background: #0d0d0d;
+}
+
+.minimal-card:hover h3 {
+    color: #0ce3bb;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #030303;
+}
+::-webkit-scrollbar-thumb {
+    background: #1f1f1f;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}

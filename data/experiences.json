@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Machine Learning Engineer",
+    "company": "JAS Kapital",
+    "date": "May 2026 - Present",
+    "description": ""
+  },
+  {
+    "role": "Research Assistant",
+    "company": "STEI ITB",
+    "date": "Sep 2025 - Present",
+    "description": "Designed and implemented word correction and prediction algorithms for the BISINDO Gloves system to enhance Indonesian Sign Language interpretation."
+  },
+  {
+    "role": "Digital System & Computer System Architecture Laboratory Assistant",
+    "company": "Institut Teknologi Bandung",
+    "date": "Sep 2025 - Jan 2026",
+    "description": "Guided students through lab practicums, evaluated assignments, and provided constructive feedback."
+  },
+  {
+    "role": "Freelance Software Developer",
+    "company": "Freelance",
+    "date": "Aug 2025 - Nov 2025",
+    "description": "Architected backend systems and built dynamic performance monitoring dashboards using Next.js and Google Cloud Platform for a strategic innovation project."
+  },
+  {
+    "role": "Technology Solution Intern",
+    "company": "AirNav Indonesia",
+    "date": "Jul 2025 - Aug 2025",
+    "description": "Developed an integrated web-based system including a GIS module for asset mapping, a contract analysis module, and an internship management portal using Next.js, Go, and PostgreSQL."
+  }
+]

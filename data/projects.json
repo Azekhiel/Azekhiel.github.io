@@ -1,0 +1,32 @@
+[
+  {
+    "title": "BISINDO Translation System",
+    "description": "Engineered an Indonesian Sign Language translation system featuring two distinct modes: one mode using a camera for a Computer Vision pipeline to extract spatial features with MediaPipe, and a separate mode utilizing physical sensors on gloves to process continuous hand telemetry. Implemented FAISS for 1-NN spatial vector matching.",
+    "link": ""
+  },
+  {
+    "title": "FIRE-SENSE",
+    "description": "Developing a predictive dashboard for forest fire detection utilizing machine learning, focusing on model feature engineering and SHAP value analysis.",
+    "link": ""
+  },
+  {
+    "title": "Moli-Milo (Full-Stack Web3 RBAC System)",
+    "description": "Developed a Web3 application with Smart Contract-based Role-Based Access Control on a private Ethereum network. Implemented 5-layer security and built a Go backend for asynchronous blockchain event logging.",
+    "link": "https://github.com/Azekhiel/BlockChain_Enkripsi-dan-Keamanan"
+  },
+  {
+    "title": "Student Status Prediction",
+    "description": "Developed a Multi-class Softmax Regression model from scratch to classify student classes. Engineered a preprocessing pipeline using One-Hot Encoding and ANOVA.",
+    "link": "https://github.com/Astha47/Tubes-AI-2"
+  },
+  {
+    "title": "Applicant Tracking System",
+    "description": "Developed a desktop ATS to automate CV screening using exact search algorithms (KMP, Boyer-Moore) and fuzzy matching (Levenshtein Distance).",
+    "link": "https://github.com/irgimondo/Tubes3_atsTracker/tree/main"
+  },
+  {
+    "title": "Intelligent Course Scheduler",
+    "description": "Built an AI-based system to automatically generate weekly class timetables using metaheuristic algorithms like Hill Climbing, Simulated Annealing, and Genetic Algorithm.",
+    "link": "https://github.com/davarphi/Tubes1_IF3170_MiripStima"
+  }
+]
